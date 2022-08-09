@@ -327,8 +327,7 @@ h1 {
 /*footer beginning*/
 footer{
   width: 100vw;
-  /* Note dev this field should be edited i gave this spave so that other contents can stay here */
-  margin-top: 100%;  
+  /* Note dev this field should be edited i gave this spave so that other contents can stay here */ 
 }
 footer h2{
   font-size: 18px;
