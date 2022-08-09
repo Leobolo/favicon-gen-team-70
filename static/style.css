@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Sora", sans-serif;
+  max-width: 100%;
 }
 html{
   max-width: 100%;
@@ -87,6 +88,7 @@ header {
 }
 
 .blur {
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
   background: hsla(200, 35%, 13%, 0.4);
 }
