@@ -38,7 +38,7 @@ body {
 .icon {
   z-index: 20;
   color: rgba(24, 49, 83, 1);
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 i,
@@ -380,8 +380,8 @@ h1 {
 }
 
 .hero{
-  max-width: 60%;
-  height: auto;
+  width:876px;
+  height: 710px;
   margin: 2rem;
 }
 
@@ -426,18 +426,27 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.contain > img{
-  margin: 50px;
-  width: 50%;
-  height: 50%;
+.circle{
+  margin: 60px 50px;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.rec{
+  margin: 60px 40px;
+  width: 120.07px;
+  height: 100px;
   justify-content: center;
   align-items: center;
 }
 .sport{
-  background-color: #ca9ad5;
+  background-color: rgb(202,154,213);
+  
 }
 .ins{
-  background-color: #b2d8f7;
+  background-color: #ffffff;
+ 
 }
 .star{
 background-color: #fabbbc;
@@ -448,9 +457,13 @@ display: none;
 }
 .gg{
   background-color: #b2d8f7;
+ 
 }
 .snap{
   background-color: #eac4f4;
+}
+.snap > img{
+  width: 120.07;
 }
 /*mobile view for the top part*/
 @media screen and (max-width:600px){
@@ -459,8 +472,8 @@ display: none;
     justify-content: space-around;
   }
   .hero{
-    height:250px;
-    width: 250px;
+    height:240px;
+    width: 194.42px;
   }
   .text{
     width: 100vw;
@@ -499,8 +512,9 @@ display: none;
   }
  
   .contain{
-    width: 100px;
-    height: 150px;
+    width: 80px;
+    height: 96px;
+    border-radius: 0 25px;
     align-items: stretch;
     justify-content: space-around;
     margin-top: 20px;
@@ -510,6 +524,7 @@ display: none;
     width: 80px;
     height: 80px;
   }
+  
   .star{
     display: block;
     }
@@ -713,22 +728,24 @@ section .sec3 .sec3_content_head h5{
 section .sec3_sc{
   background: #183153;
   border-radius: 8px;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
 }
 section .sec3 .sec3_content_subscribe{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #183153;
-  padding: 20px;
+  padding: 10px 10px;
   border: 1px solid;
   border-radius: 0.5rem;
+  width: 50vw;
 
 }
 section .sec3 .sec3_content_subscribe .btn-sub{
   background-color: white;
   color: #0D1B2E;
+  margin:10px;
 }
 section .sec3 .sec3_content_subscribe .btn-sub:hover{
   /* background-color: white; */
@@ -741,7 +758,7 @@ border: none;
 outline: none;
 font-size: 16px;
 color: white;
-padding: 0 15px;
+padding: 0 5px;
 resize: none;
 transition: all 300ms ease;
 
@@ -942,7 +959,6 @@ input::placeholder{
 footer{
  max-width: 100%;
   /* Note dev this field should be edited i gave this spave so that other contents can stay here */
-  margin-top: auto;  
 }
 footer h2{
   font-size: 18px;
