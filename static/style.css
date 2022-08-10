@@ -7,9 +7,7 @@
   font-family: "Sora", sans-serif;
   max-width: 100%;
 }
-html{
-  max-width: 100%;
-}
+
 a,
 h5 {
   text-decoration: none;
@@ -18,7 +16,7 @@ h5 {
 }
 
 body {
-  max-width: 100%;
+  width: 100vw;
   background: hsl(0, 0%, 98%);
   /* background: #E8EAEE; */
   display: flex;
@@ -39,7 +37,6 @@ body {
 .icon {
   z-index: 20;
   color: rgba(24, 49, 83, 1);
-  margin-left: 10px;
 }
 
 i,
@@ -969,7 +966,7 @@ input::placeholder{
 
 /*footer beginning*/
 footer{
- max-width: 100%;
+ width: 100vw;
   /* Note dev this field should be edited i gave this spave so that other contents can stay here */
 }
 footer h2{
