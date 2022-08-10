@@ -7,7 +7,9 @@
   font-family: "Sora", sans-serif;
   max-width: 100%;
 }
-
+html{
+  max-width: 100vw;
+}
 a,
 h5 {
   text-decoration: none;
@@ -16,7 +18,7 @@ h5 {
 }
 
 body {
-  width: 100vw;
+  max-width: 100vw;
   background: hsl(0, 0%, 98%);
   /* background: #E8EAEE; */
   display: flex;
@@ -371,12 +373,13 @@ h1 {
 }
 .main-ill{
   width: 100%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   /* margin: auto; */
   padding-top: 1rem;
 }
+
 
 .hero{
   width:876px;
@@ -386,12 +389,14 @@ h1 {
 
 .btn-blue{
   background-color: #183153;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 600;
+  height: 117px;
+  gap:15px;
   color: #fff;
-  width: 250px;
-  padding: 20px 40px;
-  margin: 50px 40vw;
+  width: 33.75vw;
+  padding: 20px auto;
+  margin: 50px 33.125vw 0px 33.125vw;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
@@ -486,11 +491,11 @@ display: none;
     font-size: 12px;
   }
   .btn-blue{
-    width: 125px;
+    width: 33.75vw;
     padding: 10px ;
-    margin: 50px 35vw 0px 35vw;
-    font-size: 12px;
-    font-weight: 400;
+    margin: 50px 33.125vw 0px 33.125vw;
+    font-size: 24px;
+    font-weight: 600;
     
   }
   .text-h2{
@@ -562,9 +567,10 @@ small {
   font-family: 'Sora';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 15px;
   color: #183153;
+  
 }
 .main {
   background: white;
@@ -654,7 +660,11 @@ section .sec{
   padding: 5rem 7.5rem;
   font-family: 'Sora';
   font-style: normal;
-  
+  font-weight: 600; 
+}
+.fg_content_desc{
+  width:65%;
+  padding: 10px auto;
 }
 
 section .sec2 {
@@ -671,10 +681,15 @@ section .sec2 .get_started h4{
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  color: #0D1B2E;
+  color: #183153;
   margin: 2rem 0;
 }
-
+.sec3_content_head p{
+  width:68%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
 .btn{
   max-width:max-content;
   text-transform: capitalize;
